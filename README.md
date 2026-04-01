@@ -72,17 +72,17 @@ It is designed for:
 
 ## 🔬 Analytical Architecture
 
-### 1) Spatial Migration Mapping
+### 1. Spatial Migration Mapping
 - State-level net migration visualization
 - Geographic concentration of in-migration vs out-migration
 - Regional migration pressure interpretation
 
-### 2) Temporal Trend Analysis
+### 2. Temporal Trend Analysis
 - Population and migration dynamics over time
 - Structural shifts in destination and origin states
 - Comparative trajectories by region
 
-### 3) Econometric Modeling
+### 3. Econometric Modeling
 - Regression analysis linking migration outcomes to economic factors
 - Interpretation of directional effects
 - Policy/business implications from model outputs
@@ -137,16 +137,16 @@ cd <your-repo-folder>
 pip install -r requirements.txt
 
 # 3) Run analysis
-# Open notebook(s) in analysis/ and execute all cells
 jupyter notebook
-Open the notebook in:
+```
 
-Text
-analysis/
-to reproduce all maps, trend charts, and model outputs.
+Open the notebook in `analysis/` to reproduce all maps, trend charts, and model outputs.
 
-📁 Project Structure
-Text
+---
+
+## 📁 Project Structure
+
+```
 📦 us-population-migration-patterns
  ┣ 📄 README.md
  ┣ 📄 requirements.txt
@@ -163,8 +163,13 @@ Text
    ┣ 📄 preprocess.py
    ┣ 📄 visualization.py
    ┗ 📄 modeling.py
-🛠 Tech Stack
-Python
+```
+
+---
+
+## 🛠 Tech Stack
+
+```python
 # Analysis
 pandas, numpy
 
@@ -176,18 +181,27 @@ statsmodels, scikit-learn
 
 # Workflow
 jupyter
-🔮 Future Extensions
-Add county-level migration granularity
-Build predictive migration risk/attraction scores
-Integrate housing affordability and climate stress variables
-Deploy an interactive dashboard layer (e.g., Streamlit)
-👤 Author
+```
+
+---
+
+## 🔮 Future Extensions
+
+- Add county-level migration granularity
+- Build predictive migration risk/attraction scores
+- Integrate housing affordability and climate stress variables
+- Deploy an interactive dashboard layer (e.g., Streamlit)
+
+---
+
+## 👤 Author
+
 <div align="center">
-Ayodele Idowu
-Economist & Data Scientist
-![GitHub](https://img.shields.io/badge/GitHub-AyodeleID-181717?style=for-the-badge&logo=github&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-ayodeleid.com-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)
 
-</div> ```
+**Ayodele Idowu**  
+*Economist & Data Scientist*
 
+[![GitHub](https://img.shields.io/badge/GitHub-AyodeleID-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AyodeleID)
+[![Portfolio](https://img.shields.io/badge/Portfolio-ayodeleid.com-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ayodeleid.com)
 
-help me design this my Readme in one markdowntogetehr
+</div>
